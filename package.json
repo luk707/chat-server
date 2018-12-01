@@ -3,5 +3,11 @@
   "description": "Rest chat server",
   "version": "1.0.0",
   "private": true,
-  "author": "Luke Harris <lukeharris01170@gmail.com>"
+  "author": "Luke Harris <lukeharris01170@gmail.com>",
+  "scripts": {
+    "envup": "envup"
+  },
+  "devDependencies": {
+    "envup": "^1.1.2"
+  }
 }
