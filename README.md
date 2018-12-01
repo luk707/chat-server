@@ -1,2 +1,3 @@
 # chat-server
-MongoDB Rest chat server
+
+Rest chat server
