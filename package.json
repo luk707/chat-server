@@ -6,7 +6,11 @@
   "author": "Luke Harris <lukeharris01170@gmail.com>",
   "scripts": {
     "build": "babel src --out-dir dist",
+    "dev": "nodemon --exec \"node -r @babel/register -r dotenv/config\" src",
     "envup": "envup"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
@@ -14,10 +18,10 @@
     "@babel/plugin-transform-async-to-generator": "^7.1.0",
     "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
     "babel-plugin-module-resolver": "^3.1.1",
-    "envup": "^1.1.2"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.1.5"
+    "dotenv": "^6.1.0",
+    "envup": "^1.1.2",
+    "nodemon": "^1.18.7"
   }
 }
