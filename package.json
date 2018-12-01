@@ -1,0 +1,7 @@
+{
+  "name": "chat-server",
+  "description": "Rest chat server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Luke Harris <lukeharris01170@gmail.com>"
+}
