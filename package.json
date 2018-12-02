@@ -13,6 +13,7 @@
     "@babel/runtime": "^7.1.5",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "sequelize": "^4.41.2",
     "sqlite3": "^4.0.4"
   },
