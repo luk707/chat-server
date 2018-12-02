@@ -1,5 +1,6 @@
 # Generated files
 dist/
+database.db
 
 # Logs
 logs
